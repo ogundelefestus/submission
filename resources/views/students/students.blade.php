@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-laravel shopping-chart
+OASM
 @endsection
 @section('content')
 
@@ -45,9 +45,36 @@ laravel shopping-chart
 								<a href="#" data-rel="reload"><i class="glyphicon glyphicon-cog"></i></a>
 							</div>
 						</div>
-		  				<div class="panel-body">
-		  					<img src="http://researchandadvancement.nouedu.net/sites/default/files/NounAbujaGate.jpg" alt="" height="450" style="margin-bottom:50px;  width:1075px;">
-		  				</div>
+		  			
+                     <div class="contanier">  
+                    <div class="row">
+                                <div class="col-9">
+                                    <div class="card m-b-20">
+                                        <div class="card-body">
+            
+                                            <h4 class="mt-0 header-title">File:</h4>
+                                            
+            
+                                            <div class="m-b-20">
+                                                <form action="#" class="dropzone">
+                                                    <div class="fallback">
+                                                        <input name="file" type="file" multiple="multiple">
+                                                    </div>
+                                                </form>
+                                            </div>
+            
+                                            <div class="text-center m-t-15">
+                                                <button type="button" class="btn btn-primary waves-effect waves-light">Send Files</button>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                </div> 
+                           </div>
+</div>
+
+		  					<!--<img src="http://researchandadvancement.nouedu.net/sites/default/files/NounAbujaGate.jpg" alt="" height="450" style="margin-bottom:50px;  width:1075px;">-->
+		  				
 		  			</div>
 
 
@@ -59,7 +86,7 @@ laravel shopping-chart
     </div>
 </div>
 </div>
-<div class="contanier" style="margin-bottom:30px;">
+<!--<div class="contanier" style="margin-bottom:30px;">
 <h2 color="black">What do you know about OASM?</h2>
 <p style="font-weight:bold;">An online assignment handling is a system contained within the Module virtual learning environment. The functionality of the standard assignment handling module has been extended to cater for all the Department's needs in terms of receiving assignments from students, making them <br>available to tutors to mark, returning grades, comments and marked work to students and keeping Registry and course administrators informed at all stages of the process. Extension requests are an integral part of the system.
 
@@ -67,7 +94,7 @@ Universities, Polytechnics and colleges of education are <br>considered the main
 Assignments are submitted by students either individually or in groups. Assignment management involves collecting, marking, and redistributing to students. Tregobov (1998) breaks the process down into four stages: submission, recording, marking, and return. Online assignment submission and management (OASM) involves the use of the World-Wide Web, the Internet and computers to aid this process (Jones, 2003). With traditional assignment submission system, lots of problems arise especially when the students have to submit the answers of the assignment to the lecturer. There may be problems due to distance, time, or format of the assignment (written or printed). Also every learning process requires administrative support. Much of this administrative support is to some degree transparent but if the latter is not well organized it could disrupt the flow of learning between students and the staff.
 As the educational world is moving faster and becoming more competitive, almost every university started to use an online submission system, or newer technologies to facilitate their task, to have more time, and to be in pace with this fast moving IT world.</p>
 
-</div>
+</div>-->
 
 
     <footer>

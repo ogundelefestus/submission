@@ -11,6 +11,37 @@
 |
 */
 
+
+
+//homepage route
 Route::get('/', function () {
     return view('home.index');
+   
+});
+//students route
+Route::get('/students', function () {
+    return view('students.students');
+});
+   
+//signup route for post and get request
+Route::get('/signup', function () {
+    return view('user.signup');
+});
+   
+Route::post('/signup', function () {
+    return view('user.signup');
+});
+   
+//signin route for post and get request
+
+Route::get('/signin', function () {
+    return view('user.signin');
+});
+   
+//Route::post('/signup', function () {
+    return view('user.signin');
+//});
+//route for profile page
+Route::get('/profile', function () {
+    return view('user.profile');
 });
