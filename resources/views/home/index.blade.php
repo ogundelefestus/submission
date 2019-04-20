@@ -70,7 +70,9 @@ OASM
 Universities, Polytechnics and colleges of education are considered the main provider of knowledge in varioement involng more competitive, almost every university started to use an online submission system, or newer technologies to facilitate their task, to have more time, and to be in pace with this fast moving IT world.</p>
 </div>
 
-
+<br>
+<br>
+<br>
     <footer style="margin-top:60px;">
          <div class="container">
          
