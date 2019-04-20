@@ -26,11 +26,16 @@ Route::get('/students', function () {
 //signup route for post and get request
 Route::get('/signup', function () {
     return view('user.signup');
+    return view('/signup','UserController@getsignup');
+    
 });
    
 Route::post('/signup', function () {
     return view('user.signup');
+    return view('/signup','UserController@postsignup');
+  
 });
+
    
 //signin route for post and get request
 

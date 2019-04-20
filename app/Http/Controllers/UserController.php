@@ -23,8 +23,9 @@ $user=new User([
     'password'=>bcrypt($request->input('password'))
 
 ]);
-
 $user->save();
 return redirect()->route['user.profile'];
+
     }
+   
 }
